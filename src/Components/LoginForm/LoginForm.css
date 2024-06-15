@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    font-size: 55px;
+    font-family: RelativeSet,Skyscanner Relative,-apple-system,BlinkMacSystemFont,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color: rgb(5, 32, 60);
+    font-weight: bold;
+}
+.inputs {
+    margin-top: 55px;
+    gap: 25px;
+    display: flex;
+    flex-direction:column;
+}
+.input {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color:rgb(237, 237, 222);
+    width: 400px;
+    height: 60px;
+    
+}
+.input img {
+    margin: 0px 30px;
+    
+}
+.input input {
+    height: 50px; width: 400px;
+    background: transparent;
+    border: none; outline: none;
+    color:
+    #797979;
+    font-size: 19px;
+}
+
+.forgot-password {
+    margin-top: 27px;
+    font-size: 18px;
+    color:rgb(123, 123, 65);
+}
+.forgot-password span {
+    cursor: pointer;
+    color: rgb(5, 32, 60);
+}
+.submit-signup{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(5, 32, 60);
+    color: white;
+    padding: 10px 50px;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius:100px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+.submit-signin{
+    margin-top: 27px;
+    font-size: 18px;
+    color:rgb(123, 123, 65);
+
+}
+.submit-signin span {
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(5, 32, 60);
+}
+.submit-gray {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    padding: 10px 50px;
+    font-size: 19px;
+    
+    border-radius:100px;
+    font-weight: bold;
+    margin-top: 20px;
+}
